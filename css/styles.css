@@ -12,8 +12,6 @@
 body {
     background: var(--text-color-theme-dark);
     font-family: var(--first-font);
-    font-size: 14px;
-   
 }
 
 .link { 
@@ -190,4 +188,37 @@ color: var(--accent-color);
 .contact-link-footer:hover,
 .contact-link-footer:focus {
     color: var(--accent-color);
+}
+/*main portfolio*/
+.main-portfolio-section {
+    background-color: #EEEEEE;
+}
+.portfolio-btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color:var(--main-text-color);
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color:var(--accent-color);
+}
+.name-project {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+    
+        color:var(--main-text-color);
+}
+.name-poject-direction {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,88;
+        letter-spacing: 0.03em;
+    
+        color:var(--secondary-text-color);
 }
