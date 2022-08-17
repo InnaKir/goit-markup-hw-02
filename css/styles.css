@@ -173,6 +173,9 @@ color: var(--accent-color);
     color: var(--accent-color);
 }
 /*main portfolio*/
+.portfolio {
+    font-size: 0;
+}
 .main-portfolio-section {
     background-color: #EEEEEE;
 }
@@ -182,9 +185,14 @@ color: var(--accent-color);
         line-height: 1.62;
         text-align: center;
     }
+    .btn-all {
+        background-color: var(--accent-color);
+        color: var(--text-color-theme-dark);
+    }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    color:var(--accent-color);
+    background-color:var(--accent-color);
+    color: var(--text-color-theme-dark);
 }
 .name-project {
         font-weight: 700;
